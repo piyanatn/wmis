@@ -1,0 +1,418 @@
+2014/06/29 13:10:49 [error] [php] htmlspecialchars() expects parameter 1 to be string, array given (D:\Ampps\www\yiiframework\framework\web\helpers\CHtml.php:103)
+Stack trace:
+#0 D:\Ampps\www\yiiframework\framework\web\helpers\CHtml.php(158): renderAttributes()
+#1 D:\Ampps\www\yiiframework\framework\web\helpers\CHtml.php(442): tag()
+#2 D:\Ampps\www\wmis\protected\views\layouts\main.php(56): image()
+#3 D:\Ampps\www\yiiframework\framework\web\CBaseController.php(126): require()
+#4 D:\Ampps\www\yiiframework\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#5 D:\Ampps\www\yiiframework\framework\web\widgets\CContentDecorator.php(76): SiteController->renderFile()
+#6 D:\Ampps\www\yiiframework\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate()
+#7 D:\Ampps\www\yiiframework\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput()
+#8 D:\Ampps\www\yiiframework\framework\web\CBaseController.php(206): CContentDecorator->run()
+#9 D:\Ampps\www\yiiframework\framework\web\CBaseController.php(300): SiteController->endWidget()
+#10 D:\Ampps\www\wmis\protected\views\layouts\column1.php(6): SiteController->endContent()
+#11 D:\Ampps\www\yiiframework\framework\web\CBaseController.php(126): require()
+#12 D:\Ampps\www\yiiframework\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#13 D:\Ampps\www\yiiframework\framework\web\CController.php(784): SiteController->renderFile()
+#14 D:\Ampps\www\wmis\protected\controllers\SiteController.php(32): SiteController->render()
+#15 D:\Ampps\www\yiiframework\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#16 D:\Ampps\www\yiiframework\framework\web\CController.php(308): CInlineAction->runWithParams()
+#17 D:\Ampps\www\yiiframework\framework\web\CController.php(286): SiteController->runAction()
+#18 D:\Ampps\www\yiiframework\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#19 D:\Ampps\www\yiiframework\framework\web\CWebApplication.php(282): SiteController->run()
+#20 D:\Ampps\www\yiiframework\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#21 D:\Ampps\www\yiiframework\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#22 D:\Ampps\www\wmis\index.php(13): CWebApplication->run()
+REQUEST_URI=/wmis/
+in D:\Ampps\www\wmis\protected\views\layouts\main.php (56)
+in D:\Ampps\www\wmis\protected\views\layouts\column1.php (6)
+in D:\Ampps\www\wmis\protected\controllers\SiteController.php (32)
+2014/06/29 13:21:52 [error] [php] htmlspecialchars() expects parameter 1 to be string, array given (D:\Ampps\www\yiiframework\framework\web\helpers\CHtml.php:103)
+Stack trace:
+#0 D:\Ampps\www\yiiframework\framework\web\helpers\CHtml.php(158): renderAttributes()
+#1 D:\Ampps\www\yiiframework\framework\web\helpers\CHtml.php(442): tag()
+#2 D:\Ampps\www\wmis\protected\views\layouts\main.php(62): image()
+#3 D:\Ampps\www\yiiframework\framework\web\CBaseController.php(126): require()
+#4 D:\Ampps\www\yiiframework\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#5 D:\Ampps\www\yiiframework\framework\web\widgets\CContentDecorator.php(76): SiteController->renderFile()
+#6 D:\Ampps\www\yiiframework\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate()
+#7 D:\Ampps\www\yiiframework\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput()
+#8 D:\Ampps\www\yiiframework\framework\web\CBaseController.php(206): CContentDecorator->run()
+#9 D:\Ampps\www\yiiframework\framework\web\CBaseController.php(300): SiteController->endWidget()
+#10 D:\Ampps\www\wmis\protected\views\layouts\column1.php(6): SiteController->endContent()
+#11 D:\Ampps\www\yiiframework\framework\web\CBaseController.php(126): require()
+#12 D:\Ampps\www\yiiframework\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#13 D:\Ampps\www\yiiframework\framework\web\CController.php(784): SiteController->renderFile()
+#14 D:\Ampps\www\wmis\protected\controllers\SiteController.php(32): SiteController->render()
+#15 D:\Ampps\www\yiiframework\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#16 D:\Ampps\www\yiiframework\framework\web\CController.php(308): CInlineAction->runWithParams()
+#17 D:\Ampps\www\yiiframework\framework\web\CController.php(286): SiteController->runAction()
+#18 D:\Ampps\www\yiiframework\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#19 D:\Ampps\www\yiiframework\framework\web\CWebApplication.php(282): SiteController->run()
+#20 D:\Ampps\www\yiiframework\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#21 D:\Ampps\www\yiiframework\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#22 D:\Ampps\www\wmis\index.php(13): CWebApplication->run()
+REQUEST_URI=/wmis/
+in D:\Ampps\www\wmis\protected\views\layouts\main.php (62)
+in D:\Ampps\www\wmis\protected\views\layouts\column1.php (6)
+in D:\Ampps\www\wmis\protected\controllers\SiteController.php (32)
+2014/06/29 13:31:20 [error] [php] Illegal string offset 'src' (D:\Ampps\www\yiiframework\framework\web\helpers\CHtml.php:440)
+Stack trace:
+#0 D:\Ampps\www\yiiframework\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#1 D:\Ampps\www\yiiframework\framework\web\widgets\CContentDecorator.php(76): SiteController->renderFile()
+#2 D:\Ampps\www\yiiframework\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate()
+#3 D:\Ampps\www\yiiframework\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput()
+#4 D:\Ampps\www\yiiframework\framework\web\CBaseController.php(206): CContentDecorator->run()
+#5 D:\Ampps\www\yiiframework\framework\web\CBaseController.php(300): SiteController->endWidget()
+#6 D:\Ampps\www\wmis\protected\views\layouts\column1.php(6): SiteController->endContent()
+#7 D:\Ampps\www\yiiframework\framework\web\CBaseController.php(126): require()
+#8 D:\Ampps\www\yiiframework\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#9 D:\Ampps\www\yiiframework\framework\web\CController.php(784): SiteController->renderFile()
+#10 D:\Ampps\www\wmis\protected\controllers\SiteController.php(32): SiteController->render()
+#11 D:\Ampps\www\yiiframework\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#12 D:\Ampps\www\yiiframework\framework\web\CController.php(308): CInlineAction->runWithParams()
+#13 D:\Ampps\www\yiiframework\framework\web\CController.php(286): SiteController->runAction()
+#14 D:\Ampps\www\yiiframework\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#15 D:\Ampps\www\yiiframework\framework\web\CWebApplication.php(282): SiteController->run()
+#16 D:\Ampps\www\yiiframework\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#17 D:\Ampps\www\yiiframework\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#18 D:\Ampps\www\wmis\index.php(13): CWebApplication->run()
+REQUEST_URI=/wmis/
+in D:\Ampps\www\wmis\protected\views\layouts\main.php (55)
+in D:\Ampps\www\wmis\protected\views\layouts\column1.php (6)
+in D:\Ampps\www\wmis\protected\controllers\SiteController.php (32)
+2014/06/29 13:53:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "pages".' in D:\Ampps\www\yiiframework\framework\web\CController.php:483
+Stack trace:
+#0 D:\Ampps\www\yiiframework\framework\web\CController.php(270): CController->missingAction('pages')
+#1 D:\Ampps\www\yiiframework\framework\web\CWebApplication.php(282): CController->run('pages')
+#2 D:\Ampps\www\yiiframework\framework\web\CWebApplication.php(141): CWebApplication->runController('site/pages/Moth...')
+#3 D:\Ampps\www\yiiframework\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\Ampps\www\wmis\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/wmis/index.php?r=site/pages/Mother
+HTTP_REFERER=http://localhost/wmis/index.php?r=site/index
+---
+2014/06/29 13:54:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "pages".' in D:\Ampps\www\yiiframework\framework\web\CController.php:483
+Stack trace:
+#0 D:\Ampps\www\yiiframework\framework\web\CController.php(270): CController->missingAction('pages')
+#1 D:\Ampps\www\yiiframework\framework\web\CWebApplication.php(282): CController->run('pages')
+#2 D:\Ampps\www\yiiframework\framework\web\CWebApplication.php(141): CWebApplication->runController('site/pages/Moth...')
+#3 D:\Ampps\www\yiiframework\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\Ampps\www\wmis\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/wmis/index.php?r=site/pages/Mother
+HTTP_REFERER=http://localhost/wmis/index.php?r=site/index
+---
+2014/06/29 13:54:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "pages".' in D:\Ampps\www\yiiframework\framework\web\CController.php:483
+Stack trace:
+#0 D:\Ampps\www\yiiframework\framework\web\CController.php(270): CController->missingAction('pages')
+#1 D:\Ampps\www\yiiframework\framework\web\CWebApplication.php(282): CController->run('pages')
+#2 D:\Ampps\www\yiiframework\framework\web\CWebApplication.php(141): CWebApplication->runController('site/pages')
+#3 D:\Ampps\www\yiiframework\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\Ampps\www\wmis\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/wmis/index.php?r=site/pages&view=Mother
+HTTP_REFERER=http://localhost/wmis/index.php?r=site/pages/Mother
+---
+2014/06/29 13:54:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "pages".' in D:\Ampps\www\yiiframework\framework\web\CController.php:483
+Stack trace:
+#0 D:\Ampps\www\yiiframework\framework\web\CController.php(270): CController->missingAction('pages')
+#1 D:\Ampps\www\yiiframework\framework\web\CWebApplication.php(282): CController->run('pages')
+#2 D:\Ampps\www\yiiframework\framework\web\CWebApplication.php(141): CWebApplication->runController('site/pages')
+#3 D:\Ampps\www\yiiframework\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\Ampps\www\wmis\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/wmis/index.php?r=site/pages&view=Mother
+HTTP_REFERER=http://localhost/wmis/index.php?r=site/index
+---
+2014/06/29 13:54:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "pages".' in D:\Ampps\www\yiiframework\framework\web\CController.php:483
+Stack trace:
+#0 D:\Ampps\www\yiiframework\framework\web\CController.php(270): CController->missingAction('pages')
+#1 D:\Ampps\www\yiiframework\framework\web\CWebApplication.php(282): CController->run('pages')
+#2 D:\Ampps\www\yiiframework\framework\web\CWebApplication.php(141): CWebApplication->runController('site/pages')
+#3 D:\Ampps\www\yiiframework\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\Ampps\www\wmis\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/wmis/index.php?r=site/pages&view=Mother
+HTTP_REFERER=http://localhost/wmis/index.php?r=site/index
+---
+2014/06/29 16:27:54 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'adminhos'@'localhost' (using password: YES)' in D:\Ampps\www\yiiframework\framework\db\CDbConnection.php:382
+Stack trace:
+#0 D:\Ampps\www\yiiframework\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 D:\Ampps\www\yiiframework\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 D:\Ampps\www\yiiframework\framework\base\CModule.php(387): CDbConnection->init()
+#3 D:\Ampps\www\yiiframework\framework\base\CModule.php(103): CModule->getComponent('db')
+#4 D:\Ampps\www\yiiframework\framework\gii\generators\model\ModelCode.php(60): CModule->__get('db')
+#5 D:\Ampps\www\yiiframework\framework\web\CFormModel.php(39): ModelCode->init()
+#6 D:\Ampps\www\yiiframework\framework\gii\CCodeGenerator.php(153): CFormModel->__construct()
+#7 D:\Ampps\www\yiiframework\framework\gii\CCodeGenerator.php(63): CCodeGenerator->prepare()
+#8 D:\Ampps\www\yiiframework\framework\web\actions\CInlineAction.php(49): CCodeGenerator->actionIndex()
+#9 D:\Ampps\www\yiiframework\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 D:\Ampps\www\yiiframework\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 D:\Ampps\www\yiiframework\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 D:\Ampps\www\yiiframework\framework\web\CWebApplication.php(282): CController->run('index')
+#13 D:\Ampps\www\yiiframework\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/model/index')
+#14 D:\Ampps\www\yiiframework\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 D:\Ampps\www\wmis\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/wmis/index.php?r=gii/model/index
+HTTP_REFERER=http://127.0.0.1/wmis/index.php?r=gii/default/index
+---
+2014/06/29 16:28:00 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'adminhos'@'localhost' (using password: YES)' in D:\Ampps\www\yiiframework\framework\db\CDbConnection.php:382
+Stack trace:
+#0 D:\Ampps\www\yiiframework\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 D:\Ampps\www\yiiframework\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 D:\Ampps\www\yiiframework\framework\base\CModule.php(387): CDbConnection->init()
+#3 D:\Ampps\www\yiiframework\framework\base\CModule.php(103): CModule->getComponent('db')
+#4 D:\Ampps\www\yiiframework\framework\gii\generators\model\ModelCode.php(60): CModule->__get('db')
+#5 D:\Ampps\www\yiiframework\framework\web\CFormModel.php(39): ModelCode->init()
+#6 D:\Ampps\www\yiiframework\framework\gii\CCodeGenerator.php(153): CFormModel->__construct()
+#7 D:\Ampps\www\yiiframework\framework\gii\CCodeGenerator.php(63): CCodeGenerator->prepare()
+#8 D:\Ampps\www\yiiframework\framework\web\actions\CInlineAction.php(49): CCodeGenerator->actionIndex()
+#9 D:\Ampps\www\yiiframework\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 D:\Ampps\www\yiiframework\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 D:\Ampps\www\yiiframework\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 D:\Ampps\www\yiiframework\framework\web\CWebApplication.php(282): CController->run('index')
+#13 D:\Ampps\www\yiiframework\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/model/index')
+#14 D:\Ampps\www\yiiframework\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 D:\Ampps\www\wmis\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/wmis/index.php?r=gii/model/index
+HTTP_REFERER=http://127.0.0.1/wmis/index.php?r=gii/default/index
+---
+2014/06/29 16:29:30 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'adminhos'@'localhost' (using password: YES)' in D:\Ampps\www\yiiframework\framework\db\CDbConnection.php:382
+Stack trace:
+#0 D:\Ampps\www\yiiframework\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 D:\Ampps\www\yiiframework\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 D:\Ampps\www\yiiframework\framework\base\CModule.php(387): CDbConnection->init()
+#3 D:\Ampps\www\yiiframework\framework\base\CModule.php(103): CModule->getComponent('db')
+#4 D:\Ampps\www\yiiframework\framework\gii\generators\model\ModelCode.php(60): CModule->__get('db')
+#5 D:\Ampps\www\yiiframework\framework\web\CFormModel.php(39): ModelCode->init()
+#6 D:\Ampps\www\yiiframework\framework\gii\CCodeGenerator.php(153): CFormModel->__construct()
+#7 D:\Ampps\www\yiiframework\framework\gii\CCodeGenerator.php(63): CCodeGenerator->prepare()
+#8 D:\Ampps\www\yiiframework\framework\web\actions\CInlineAction.php(49): CCodeGenerator->actionIndex()
+#9 D:\Ampps\www\yiiframework\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 D:\Ampps\www\yiiframework\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 D:\Ampps\www\yiiframework\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 D:\Ampps\www\yiiframework\framework\web\CWebApplication.php(282): CController->run('index')
+#13 D:\Ampps\www\yiiframework\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/model/index')
+#14 D:\Ampps\www\yiiframework\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 D:\Ampps\www\wmis\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/wmis/index.php?r=gii/model/index
+---
+2014/06/29 16:30:35 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'adminhos'@'localhost' (using password: YES)' in D:\Ampps\www\yiiframework\framework\db\CDbConnection.php:382
+Stack trace:
+#0 D:\Ampps\www\yiiframework\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 D:\Ampps\www\yiiframework\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 D:\Ampps\www\yiiframework\framework\base\CModule.php(387): CDbConnection->init()
+#3 D:\Ampps\www\yiiframework\framework\base\CModule.php(103): CModule->getComponent('db')
+#4 D:\Ampps\www\yiiframework\framework\gii\generators\model\ModelCode.php(60): CModule->__get('db')
+#5 D:\Ampps\www\yiiframework\framework\web\CFormModel.php(39): ModelCode->init()
+#6 D:\Ampps\www\yiiframework\framework\gii\CCodeGenerator.php(153): CFormModel->__construct()
+#7 D:\Ampps\www\yiiframework\framework\gii\CCodeGenerator.php(63): CCodeGenerator->prepare()
+#8 D:\Ampps\www\yiiframework\framework\web\actions\CInlineAction.php(49): CCodeGenerator->actionIndex()
+#9 D:\Ampps\www\yiiframework\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 D:\Ampps\www\yiiframework\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 D:\Ampps\www\yiiframework\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 D:\Ampps\www\yiiframework\framework\web\CWebApplication.php(282): CController->run('index')
+#13 D:\Ampps\www\yiiframework\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/model/index')
+#14 D:\Ampps\www\yiiframework\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 D:\Ampps\www\wmis\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/wmis/index.php?r=gii/model/index
+---
+2014/06/29 16:30:39 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'adminhos'@'localhost' (using password: YES)' in D:\Ampps\www\yiiframework\framework\db\CDbConnection.php:382
+Stack trace:
+#0 D:\Ampps\www\yiiframework\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 D:\Ampps\www\yiiframework\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 D:\Ampps\www\yiiframework\framework\base\CModule.php(387): CDbConnection->init()
+#3 D:\Ampps\www\yiiframework\framework\base\CModule.php(103): CModule->getComponent('db')
+#4 D:\Ampps\www\yiiframework\framework\gii\generators\model\ModelCode.php(60): CModule->__get('db')
+#5 D:\Ampps\www\yiiframework\framework\web\CFormModel.php(39): ModelCode->init()
+#6 D:\Ampps\www\yiiframework\framework\gii\CCodeGenerator.php(153): CFormModel->__construct()
+#7 D:\Ampps\www\yiiframework\framework\gii\CCodeGenerator.php(63): CCodeGenerator->prepare()
+#8 D:\Ampps\www\yiiframework\framework\web\actions\CInlineAction.php(49): CCodeGenerator->actionIndex()
+#9 D:\Ampps\www\yiiframework\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 D:\Ampps\www\yiiframework\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 D:\Ampps\www\yiiframework\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 D:\Ampps\www\yiiframework\framework\web\CWebApplication.php(282): CController->run('index')
+#13 D:\Ampps\www\yiiframework\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/model/index')
+#14 D:\Ampps\www\yiiframework\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 D:\Ampps\www\wmis\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/wmis/index.php?r=gii/model/index
+HTTP_REFERER=http://127.0.0.1/wmis/index.php?r=gii/default/index
+---
+2014/06/29 16:31:25 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'adminhos'@'localhost' (using password: YES)' in D:\Ampps\www\yiiframework\framework\db\CDbConnection.php:382
+Stack trace:
+#0 D:\Ampps\www\yiiframework\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 D:\Ampps\www\yiiframework\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 D:\Ampps\www\yiiframework\framework\base\CModule.php(387): CDbConnection->init()
+#3 D:\Ampps\www\yiiframework\framework\base\CModule.php(103): CModule->getComponent('db')
+#4 D:\Ampps\www\yiiframework\framework\gii\generators\model\ModelCode.php(60): CModule->__get('db')
+#5 D:\Ampps\www\yiiframework\framework\web\CFormModel.php(39): ModelCode->init()
+#6 D:\Ampps\www\yiiframework\framework\gii\CCodeGenerator.php(153): CFormModel->__construct()
+#7 D:\Ampps\www\yiiframework\framework\gii\CCodeGenerator.php(63): CCodeGenerator->prepare()
+#8 D:\Ampps\www\yiiframework\framework\web\actions\CInlineAction.php(49): CCodeGenerator->actionIndex()
+#9 D:\Ampps\www\yiiframework\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 D:\Ampps\www\yiiframework\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 D:\Ampps\www\yiiframework\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 D:\Ampps\www\yiiframework\framework\web\CWebApplication.php(282): CController->run('index')
+#13 D:\Ampps\www\yiiframework\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/model/index')
+#14 D:\Ampps\www\yiiframework\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 D:\Ampps\www\wmis\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/wmis/index.php?r=gii/model/index
+HTTP_REFERER=http://127.0.0.1/wmis/index.php?r=gii/default/index
+---
+2014/06/29 16:32:26 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'adminhos'@'localhost' (using password: YES)' in D:\Ampps\www\yiiframework\framework\db\CDbConnection.php:382
+Stack trace:
+#0 D:\Ampps\www\yiiframework\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 D:\Ampps\www\yiiframework\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 D:\Ampps\www\yiiframework\framework\base\CModule.php(387): CDbConnection->init()
+#3 D:\Ampps\www\yiiframework\framework\base\CModule.php(103): CModule->getComponent('db')
+#4 D:\Ampps\www\yiiframework\framework\gii\generators\model\ModelCode.php(60): CModule->__get('db')
+#5 D:\Ampps\www\yiiframework\framework\web\CFormModel.php(39): ModelCode->init()
+#6 D:\Ampps\www\yiiframework\framework\gii\CCodeGenerator.php(153): CFormModel->__construct()
+#7 D:\Ampps\www\yiiframework\framework\gii\CCodeGenerator.php(63): CCodeGenerator->prepare()
+#8 D:\Ampps\www\yiiframework\framework\web\actions\CInlineAction.php(49): CCodeGenerator->actionIndex()
+#9 D:\Ampps\www\yiiframework\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 D:\Ampps\www\yiiframework\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 D:\Ampps\www\yiiframework\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 D:\Ampps\www\yiiframework\framework\web\CWebApplication.php(282): CController->run('index')
+#13 D:\Ampps\www\yiiframework\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/model/index')
+#14 D:\Ampps\www\yiiframework\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 D:\Ampps\www\wmis\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/wmis/index.php?r=gii/model/index
+HTTP_REFERER=http://127.0.0.1/wmis/index.php?r=gii/default/index
+---
+2014/06/29 16:32:29 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'adminhos'@'localhost' (using password: YES)' in D:\Ampps\www\yiiframework\framework\db\CDbConnection.php:382
+Stack trace:
+#0 D:\Ampps\www\yiiframework\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 D:\Ampps\www\yiiframework\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 D:\Ampps\www\yiiframework\framework\base\CModule.php(387): CDbConnection->init()
+#3 D:\Ampps\www\yiiframework\framework\base\CModule.php(103): CModule->getComponent('db')
+#4 D:\Ampps\www\yiiframework\framework\gii\generators\model\ModelCode.php(60): CModule->__get('db')
+#5 D:\Ampps\www\yiiframework\framework\web\CFormModel.php(39): ModelCode->init()
+#6 D:\Ampps\www\yiiframework\framework\gii\CCodeGenerator.php(153): CFormModel->__construct()
+#7 D:\Ampps\www\yiiframework\framework\gii\CCodeGenerator.php(63): CCodeGenerator->prepare()
+#8 D:\Ampps\www\yiiframework\framework\web\actions\CInlineAction.php(49): CCodeGenerator->actionIndex()
+#9 D:\Ampps\www\yiiframework\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 D:\Ampps\www\yiiframework\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 D:\Ampps\www\yiiframework\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 D:\Ampps\www\yiiframework\framework\web\CWebApplication.php(282): CController->run('index')
+#13 D:\Ampps\www\yiiframework\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/model/index')
+#14 D:\Ampps\www\yiiframework\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 D:\Ampps\www\wmis\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/wmis/index.php?r=gii/model/index
+---
+2014/06/29 16:33:18 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'adminhos'@'localhost' (using password: YES)' in D:\Ampps\www\yiiframework\framework\db\CDbConnection.php:382
+Stack trace:
+#0 D:\Ampps\www\yiiframework\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 D:\Ampps\www\yiiframework\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 D:\Ampps\www\yiiframework\framework\base\CModule.php(387): CDbConnection->init()
+#3 D:\Ampps\www\yiiframework\framework\base\CModule.php(103): CModule->getComponent('db')
+#4 D:\Ampps\www\yiiframework\framework\gii\generators\model\ModelCode.php(60): CModule->__get('db')
+#5 D:\Ampps\www\yiiframework\framework\web\CFormModel.php(39): ModelCode->init()
+#6 D:\Ampps\www\yiiframework\framework\gii\CCodeGenerator.php(153): CFormModel->__construct()
+#7 D:\Ampps\www\yiiframework\framework\gii\CCodeGenerator.php(63): CCodeGenerator->prepare()
+#8 D:\Ampps\www\yiiframework\framework\web\actions\CInlineAction.php(49): CCodeGenerator->actionIndex()
+#9 D:\Ampps\www\yiiframework\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 D:\Ampps\www\yiiframework\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 D:\Ampps\www\yiiframework\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 D:\Ampps\www\yiiframework\framework\web\CWebApplication.php(282): CController->run('index')
+#13 D:\Ampps\www\yiiframework\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/model/index')
+#14 D:\Ampps\www\yiiframework\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 D:\Ampps\www\wmis\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/wmis/index.php?r=gii/model/index
+---
+2014/06/29 16:33:21 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'adminhos'@'localhost' (using password: YES)' in D:\Ampps\www\yiiframework\framework\db\CDbConnection.php:382
+Stack trace:
+#0 D:\Ampps\www\yiiframework\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 D:\Ampps\www\yiiframework\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 D:\Ampps\www\yiiframework\framework\base\CModule.php(387): CDbConnection->init()
+#3 D:\Ampps\www\yiiframework\framework\base\CModule.php(103): CModule->getComponent('db')
+#4 D:\Ampps\www\yiiframework\framework\gii\generators\model\ModelCode.php(60): CModule->__get('db')
+#5 D:\Ampps\www\yiiframework\framework\web\CFormModel.php(39): ModelCode->init()
+#6 D:\Ampps\www\yiiframework\framework\gii\CCodeGenerator.php(153): CFormModel->__construct()
+#7 D:\Ampps\www\yiiframework\framework\gii\CCodeGenerator.php(63): CCodeGenerator->prepare()
+#8 D:\Ampps\www\yiiframework\framework\web\actions\CInlineAction.php(49): CCodeGenerator->actionIndex()
+#9 D:\Ampps\www\yiiframework\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 D:\Ampps\www\yiiframework\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 D:\Ampps\www\yiiframework\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 D:\Ampps\www\yiiframework\framework\web\CWebApplication.php(282): CController->run('index')
+#13 D:\Ampps\www\yiiframework\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/model/index')
+#14 D:\Ampps\www\yiiframework\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 D:\Ampps\www\wmis\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/wmis/index.php?r=gii/model/index
+---
+2014/06/29 16:33:37 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'adminhos'@'localhost' (using password: YES)' in D:\Ampps\www\yiiframework\framework\db\CDbConnection.php:382
+Stack trace:
+#0 D:\Ampps\www\yiiframework\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 D:\Ampps\www\yiiframework\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 D:\Ampps\www\yiiframework\framework\base\CModule.php(387): CDbConnection->init()
+#3 D:\Ampps\www\yiiframework\framework\base\CModule.php(103): CModule->getComponent('db')
+#4 D:\Ampps\www\yiiframework\framework\gii\generators\model\ModelCode.php(60): CModule->__get('db')
+#5 D:\Ampps\www\yiiframework\framework\web\CFormModel.php(39): ModelCode->init()
+#6 D:\Ampps\www\yiiframework\framework\gii\CCodeGenerator.php(153): CFormModel->__construct()
+#7 D:\Ampps\www\yiiframework\framework\gii\CCodeGenerator.php(63): CCodeGenerator->prepare()
+#8 D:\Ampps\www\yiiframework\framework\web\actions\CInlineAction.php(49): CCodeGenerator->actionIndex()
+#9 D:\Ampps\www\yiiframework\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 D:\Ampps\www\yiiframework\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 D:\Ampps\www\yiiframework\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 D:\Ampps\www\yiiframework\framework\web\CWebApplication.php(282): CController->run('index')
+#13 D:\Ampps\www\yiiframework\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/model/index')
+#14 D:\Ampps\www\yiiframework\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 D:\Ampps\www\wmis\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/wmis/index.php?r=gii/model/index
+---
+2014/06/29 16:33:41 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'adminhos'@'localhost' (using password: YES)' in D:\Ampps\www\yiiframework\framework\db\CDbConnection.php:382
+Stack trace:
+#0 D:\Ampps\www\yiiframework\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 D:\Ampps\www\yiiframework\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 D:\Ampps\www\yiiframework\framework\base\CModule.php(387): CDbConnection->init()
+#3 D:\Ampps\www\yiiframework\framework\base\CModule.php(103): CModule->getComponent('db')
+#4 D:\Ampps\www\yiiframework\framework\gii\generators\model\ModelCode.php(60): CModule->__get('db')
+#5 D:\Ampps\www\yiiframework\framework\web\CFormModel.php(39): ModelCode->init()
+#6 D:\Ampps\www\yiiframework\framework\gii\CCodeGenerator.php(153): CFormModel->__construct()
+#7 D:\Ampps\www\yiiframework\framework\gii\CCodeGenerator.php(63): CCodeGenerator->prepare()
+#8 D:\Ampps\www\yiiframework\framework\web\actions\CInlineAction.php(49): CCodeGenerator->actionIndex()
+#9 D:\Ampps\www\yiiframework\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 D:\Ampps\www\yiiframework\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 D:\Ampps\www\yiiframework\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 D:\Ampps\www\yiiframework\framework\web\CWebApplication.php(282): CController->run('index')
+#13 D:\Ampps\www\yiiframework\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/model/index')
+#14 D:\Ampps\www\yiiframework\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 D:\Ampps\www\wmis\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/wmis/index.php?r=gii/model/index
+HTTP_REFERER=http://127.0.0.1/wmis/index.php?r=gii/default/index
+---
+2014/06/29 16:34:07 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'adminhos'@'localhost' (using password: YES)' in D:\Ampps\www\yiiframework\framework\db\CDbConnection.php:382
+Stack trace:
+#0 D:\Ampps\www\yiiframework\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 D:\Ampps\www\yiiframework\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 D:\Ampps\www\yiiframework\framework\base\CModule.php(387): CDbConnection->init()
+#3 D:\Ampps\www\yiiframework\framework\base\CModule.php(103): CModule->getComponent('db')
+#4 D:\Ampps\www\yiiframework\framework\gii\generators\model\ModelCode.php(60): CModule->__get('db')
+#5 D:\Ampps\www\yiiframework\framework\web\CFormModel.php(39): ModelCode->init()
+#6 D:\Ampps\www\yiiframework\framework\gii\CCodeGenerator.php(153): CFormModel->__construct()
+#7 D:\Ampps\www\yiiframework\framework\gii\CCodeGenerator.php(63): CCodeGenerator->prepare()
+#8 D:\Ampps\www\yiiframework\framework\web\actions\CInlineAction.php(49): CCodeGenerator->actionIndex()
+#9 D:\Ampps\www\yiiframework\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 D:\Ampps\www\yiiframework\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 D:\Ampps\www\yiiframework\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 D:\Ampps\www\yiiframework\framework\web\CWebApplication.php(282): CController->run('index')
+#13 D:\Ampps\www\yiiframework\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/model/index')
+#14 D:\Ampps\www\yiiframework\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 D:\Ampps\www\wmis\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/wmis/index.php?r=gii/model/index
+HTTP_REFERER=http://127.0.0.1/wmis/index.php?r=gii/default/index
+---
